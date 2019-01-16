@@ -62,7 +62,12 @@
 }
 @media screen and (min-width: 1400px){
     .Map{
-        margin-top: -35%;
+        margin-top: -40%;
+    }
+}
+@media screen and (min-width: 1600px){
+    .Map{
+        margin-top: -30%;
     }
 }
 @media screen and (min-width: 1800px){

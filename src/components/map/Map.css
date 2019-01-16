@@ -1,17 +1,15 @@
 .Map {
     margin-left: 25%;
     margin-top: -45%;
-    
-    /* tried google maps custom style, using css to see black and white to save time here */
-}
-.Map :not(.pointer){
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
     z-index: 1 !important;
+    /* tried google maps custom style, using css to see black and white to save time here */
 }
+
 .pointer, .D{
     position: absolute;
 }
@@ -57,26 +55,31 @@
 }
 @media screen and (min-width: 900px){
     .Map{
-        margin-top: -50%;
+        margin-top: -65%;
     }
 }
 @media screen and (min-width: 1200px){
     .Map{
-        margin-top: -45%;
+        margin-top: -60%;
+    }
+}
+@media screen and (min-width: 1300px){
+    .Map{
+        margin-top: -55%;
     }
 }
 @media screen and (min-width: 1400px){
     .Map{
-        margin-top: -40%;
+        margin-top: -45%;
     }
 }
 @media screen and (min-width: 1600px){
     .Map{
-        margin-top: -30%;
+        margin-top: -40%;
     }
 }
 @media screen and (min-width: 1800px){
     .Map{
-        margin-top: -25%;
+        margin-top: -35%;
     }
 }

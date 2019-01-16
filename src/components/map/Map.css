@@ -1,6 +1,7 @@
 .Map {
     margin-left: 25%;
     margin-top: -45%;
+    
     /* tried google maps custom style, using css to see black and white to save time here */
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -9,7 +10,6 @@
     filter: grayscale(100%);
     z-index: 1 !important;
 }
-
 .pointer, .D{
     position: absolute;
 }
@@ -28,4 +28,45 @@
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+/* quick fix funky spacing clean up in V2! */
+@media screen and (max-width: 300px){
+    .Map{
+        margin-top: -200%;
+    }
+}
+@media screen and (min-width: 300px){
+    .Map{
+        margin-top: -150%;
+    }
+}
+@media screen and (min-width: 400px){
+    .Map{
+        margin-top: -120%;
+    }
+}
+@media screen and (min-width: 550px){
+    .Map{
+        margin-top: -75%;
+    }
+}
+@media screen and (min-width: 900px){
+    .Map{
+        margin-top: -50%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .Map{
+        margin-top: -45%;
+    }
+}
+@media screen and (min-width: 1400px){
+    .Map{
+        margin-top: -35%;
+    }
+}
+@media screen and (min-width: 1800px){
+    .Map{
+        margin-top: -25%;
+    }
 }

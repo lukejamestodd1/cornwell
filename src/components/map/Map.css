@@ -1,3 +1,30 @@
 .Map {
-    height: 300px;
+    margin-left: 25%;
+    margin-top: -45%;
+    /* tried google maps custom style, using css to see black and white to save time here */
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.pointer, .D{
+    position: absolute;
+}
+.D {
+    z-index: 10;
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-top: 0.1em;
+}
+.pointer{
+    transform: rotate(45deg);
+    /* style issue here to be resolved in V2! */
+    background: #fcd71e !important;
+    width: 5em;
+    height: 5em;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }

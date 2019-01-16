@@ -6,7 +6,7 @@ class Header extends Component {
       return (
         <header className="Header">
           <p>
-            <span class="divider"></span>ABOUT US<span class="divider"></span>
+            <span className="divider"></span>ABOUT US<span className="divider"></span>
           </p>
         </header>
       );

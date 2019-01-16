@@ -30,15 +30,15 @@ class Insta extends Component {
   render() {
       return (
         <div className="Insta">
-          <div class="photos">
+          <div className="photos">
             {this.state.photos.map((photo, key) => {
               return (
-                <div class="picture" key={photo.id}>
+                <div className="picture" key={photo.id}>
                   <img src={photo.images.low_resolution.url} alt={photo.caption}/>
                 </div>
               )
             })}
-            <a class="button" href="https://github.com/lukejamestodd1/cornwell" target="_blank"><span>FOLLOW US →</span></a>
+            <a className="button" href="https://github.com/lukejamestodd1/cornwell" target="_blank"><span>FOLLOW US →</span></a>
           </div>
           
           <div>

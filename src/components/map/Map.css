@@ -1,13 +1,13 @@
 .Map {
     margin-left: 25%;
     margin-top: -45%;
+    z-index: 1 !important;
+    /* tried google maps custom style, using css to see black and white to save time here */
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
-    z-index: 1 !important;
-    /* tried google maps custom style, using css to see black and white to save time here */
 }
 
 .pointer, .D{
@@ -22,7 +22,8 @@
 .pointer{
     transform: rotate(45deg);
     /* style issue here to be resolved in V2! */
-    background: #fcd71e !important;
+    /* background: #fcd71e !important; */
+    background: gray;
     width: 5em;
     height: 5em;
     border-bottom-left-radius: 50%;

@@ -21,7 +21,7 @@ class Map extends Component {
     gestureHandling: 'none',
     backgroundColor:"#eeeeee",
     //tried custom styles with Google maps API, not enough time
-    style: StyleOptions
+    // style: StyleOptions
   };
     render() {
       return (
@@ -30,7 +30,7 @@ class Map extends Component {
           bootstrapURLKeys={{ key: 'AIzaSyAJ914nvbWDv457JXNCo8GBPig_F_3HTvw' }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
-          // style={this.props.style}
+          // defaultOptions={{ styles: this.props.style }}
         >
           <Location
             lat={-37.8102734}

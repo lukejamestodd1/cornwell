@@ -3,6 +3,8 @@
     margin-top: -45%;
     
     /* tried google maps custom style, using css to see black and white to save time here */
+}
+.Map :not(.pointer){
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -28,6 +30,9 @@
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    -webkit-filter: grayscale(0%) !important;
+   -moz-filter: grayscale(0%) !important;
+   filter: grayscale(0%) !important;
 }
 /* quick fix funky spacing clean up in V2! */
 @media screen and (max-width: 300px){

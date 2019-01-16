@@ -1,3 +1,36 @@
 .Insta {
-    height: 300px;
+   
+    width: 100%;
+}
+.photos{
+    display: flex;
+    margin-top: -15%;
+    justify-content: center;
+    position: relative;
+}
+.picture{
+    z-index: 20 !important;
+    flex: 33.33%;
+    object-fit: cover;
+    display: block;
+}
+.picture img{
+    width: 100%;
+}
+.button{
+    position: absolute;
+    z-index: 20;
+    margin: 0;
+    top: 50%;
+    background: white;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 30px;
+    /* took a shortcut here, used a parallellogram instead of rhombus to save time */
+    transform: skew(-20deg);
+    padding: 5px;
+}
+.button span{
+    transform: skew(-20deg);
 }
